@@ -19,16 +19,16 @@
 #define MIDEA_AIRCON1_MSG_SPACE      5100
 
 // MIDEA codes
-#define MIDEA_AIRCON1_MODE_AUTO      0x10 // Operating mode
-#define MIDEA_AIRCON1_MODE_HEAT      0x30
+#define MIDEA_AIRCON1_MODE_AUTO      0x8 // Operating mode
+#define MIDEA_AIRCON1_MODE_HEAT      0xC
 #define MIDEA_AIRCON1_MODE_COOL      0x00
-#define MIDEA_AIRCON1_MODE_DRY       0x20
-#define MIDEA_AIRCON1_MODE_FAN       0x60
+#define MIDEA_AIRCON1_MODE_DRY       0x4
+#define MIDEA_AIRCON1_MODE_FAN       0xF
 #define MIDEA_AIRCON1_MODE_FP        0x70 // Not a real mode...
 #define MIDEA_AIRCON1_MODE_OFF       0xFE // Power OFF - not real codes, but we need something...
 #define MIDEA_AIRCON1_MODE_ON        0xFF // Power ON
-#define MIDEA_AIRCON1_FAN_AUTO       0x02 // Fan speed
-#define MIDEA_AIRCON1_FAN1           0x06
+#define MIDEA_AIRCON1_FAN_AUTO       0x0B // Fan speed
+#define MIDEA_AIRCON1_FAN1           0x09
 #define MIDEA_AIRCON1_FAN2           0x05
 #define MIDEA_AIRCON1_FAN3           0x03
 
